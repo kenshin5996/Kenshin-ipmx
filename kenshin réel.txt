@@ -1,0 +1,256 @@
+Tree Compatibility Version: 55
+Self
+	Movement
+		Levitation
+			Movement Ignores Pitch: Off
+			Max Distance From Ground: 0.00
+			Upward Force: 0.00
+			Downward Force: 0.00
+			Snapping: 0.00
+		Graceful Landing: On
+		Total Freedom: On
+	Appearance
+		Outfit
+			Disable Outfit Restrictions: On
+			Disable In-Vehicle Hair Scaling: On
+			Lock Outfit: 1885233650<-1:0:208:25:39:0:108:9:13:5:61:8:4:3:50:1:177:7:-1:0:121:0:6:7:9:0:0:0:29:0:-1:0:-1:0:-1>
+		Animations
+			Automatically Cancel: On
+		Death Effect: ent_dst_hobo_trolley
+		Respawn Effect: ent_dst_hobo_trolley
+	Weapons
+		When Shooting...
+			Delete: On
+		Infinite Ammo: On
+		Skip Reloading: On
+		Total Freedom: On
+	Bodyguards
+		Spawn
+			Model: s_m_y_swat_01
+			Primary Weapon: Mitraillette d'assaut
+			Secondary Weapon: Pétoire Mk II
+		Immortality: On
+	Immortality: On
+	Auto Heal: On
+	Gracefulness: On
+	Glued To Seats: On
+	Lock Wanted Level: On
+	Infinite Stamina: On
+	No Combat Roll Cooldown: On
+Vehicle
+	Spawner
+		On Foot Behaviour
+			Spawn In Front: On
+		In Vehicle Behaviour
+			Drive Spawned Vehicles: On
+			Keep Velocity: On
+	Los Santos Customs
+		Appearance
+			Wheels
+				Tyre Smoke Colour
+					Independence Day Tyre Smoke: On
+			License Plate
+				Text: KENSHIN
+				Lock License Plate Text: On
+Online
+	Enhancements
+		Disable Idle/AFK Kick: On
+		Disable LSC Restrictions: On
+	Protections
+		Events
+			Crash Event
+				Write To Log File: Enabled
+				Timeout: Disabled
+			Unusual Event
+				Write To Console: Disabled
+			Apartment Invite
+				Block: Enabled
+			Force Camera Forward
+				Write To Console: Disabled
+			Trigger Business Raid
+				Block: Enabled
+			Give Collectible
+				Write To Console: Disabled
+			Give Collectible (Not My Boss)
+				Write To Console: Disabled
+			Infinite Loading Screen
+				Write To Console: Disabled
+			Infinite Phone Ringing
+				Write To Console: Disabled
+			Cayo Perico Invite
+				Block: Enabled
+				Write To Console: Disabled
+			Vehicle Takeover
+				Write To Console: Disabled
+			Disable Driving Vehicles
+				Write To Console: Disabled
+			Kick From Vehicle
+				Block: Enabled
+			Camera Shaking Event
+				Write To Console: Disabled
+			Ragdoll Event
+				Block: Enabled
+			Remove Weapon Event
+				Write To Console: Disabled
+			Raw Network Events: Warning Acknowledged
+				Fire
+					Block: Enabled
+				Explosion
+					Block: Enabled
+				Play Sound
+					Block: Enabled
+		Detections
+			Bounty Spam
+				Write To Console: Disabled
+		Syncs
+			Attachment Spam
+				Write To Console: Disabled
+		Host-Controlled Kicks
+			Notification When Love Letter Kicked: On
+			Desync Kick Karma: On
+			Love Letter Lube: Aggressive
+		Pickups
+			Cash Pickup Collected
+				Notification: On
+				Block: On
+			RP Pickup Collected
+				Block: On
+			Invalid Pickup Collected
+				Write To Console: Off
+		Block Bailing
+			Spectating Related: On
+		Delete Stale Objects
+			Write To Console: On
+	Quick Progress
+		Casino
+			Always Win Blackjack: On
+			Roulette Outcome: 36
+	Chat
+		Commands
+			Enabled For Me: On
+			For Crew Members
+				Aggressive Commands: On
+			Reply Visibility: Issuer & Me
+		Type Out Player Names: On
+		Paste In Chat Message: On
+		Open Chat When Scrolling: On
+		Timestamp In Messages: On
+	Reactions
+		Particle Spam Reactions
+			Write To Console: Disabled
+	Off The Radar: On
+Players
+	All Players
+		Friendly
+			Impact Particles: ent_dst_hobo_trolley
+World
+	Places
+		IPLs
+			Lifeinvader: On
+Game
+	Disables
+		Disable Game Inputs
+			CHARACTER_WHEEL: On while Stand is open
+			MULTIPLAYER_INFO: On while Stand is open
+			ENTER: On while Stand is open
+			PHONE: On while Stand is open
+			COVER: On while Stand is open
+			VEH_HEADLIGHT: On while Stand is open
+			VEH_CIN_CAM: On while Stand is open
+			VEH_NEXT_RADIO: On while Stand is open
+			VEH_PREV_RADIO: On while Stand is open
+			VEH_RADIO_WHEEL: On while Stand is open
+			MELEE_ATTACK_LIGHT: On while Stand is open
+			MELEE_ATTACK_ALTERNATE: On while Stand is open
+			SELECT_CHARACTER_MICHAEL: On while Stand is open
+			SELECT_CHARACTER_FRANKLIN: On while Stand is open
+			SELECT_CHARACTER_TREVOR: On while Stand is open
+			SELECT_CHARACTER_MULTIPLAYER: On while Stand is open
+			MELEE_ATTACK1: On while Stand is open
+			MELEE_ATTACK2: On while Stand is open
+			MAP_POI: On while Stand is open
+		Disable Idle Camera: On
+	Rendering
+		Shader Override: MP_casino_BACK_Lobby
+	Info Overlay
+		Ticks Per Second: On
+		Players: On
+	Unlocks
+		Override Pre-Order Bonus: On
+Stand
+	Settings
+		Appearance
+			Colours
+				Primary Colour: 161616E1
+				Background Colour: 0A0A0AE1
+				Unfocused Text Colour: 6F737AFF
+				Unfocused Right-Bound Text Colour: 6F737AFF
+				Unfocused Texture Colour: 6F737AFF
+				HUD Colour: 0000EAE1
+				AR Colour: 0576E4FF
+				Minigame Colour: 0576E4FF
+			Position: 1134, 496
+			Header
+				Header: Custom
+				Frame Interval: 30
+			Address Bar
+				Height: 30
+				Show Cursor Position: On
+			Tabs
+				Width: 66
+				Height: 34
+				Position: Top
+				Text Alignment: Centre
+				Show Name: Off
+				Show Icon Right: On
+			Scrollbar
+				Width: 7
+			Command Info Text
+				Position: Bottom
+			Notifications
+				Border Colour: FFFFFFFF
+				Flash Colour: 0000008C
+				Background Colour: 0A0A0AE1
+			Commands
+				Text
+					Scale: 14
+			Border
+				Width: 2
+				Colour: 00000000
+			Max Visible Commands: 14
+			List Width: 460
+			List Height: 33
+			Spacer Size: 0
+			Font & Text
+				Command Box Input Text
+					Scale: 20
+		Warnings
+			Automatically Proceed On Warnings
+				Command Box: On
+				Hotkey: On
+			Force Me To Read Warnings: Off
+	Lua Scripts
+		Constructor: On, Disable Internet Access
+			Charger Construct
+				Rechercher
+					Rechercher: police
+		Heist Control: On, Disable Internet Access
+			Braquage de Cayo Perico
+				Fonctions avancées
+					Passer le piratage: On
+			Outils
+				Autres
+					Désactiver les erreurs de transaction: On
+		MusinessBanager: On, Disable Internet Access
+		NovaScript: On, Disable Internet Access
+			Arme
+				Multiplicateur de taille
+					Multiplicateur de taille: On
+				c4 Personnalisé
+					Pistolet c4 Personnalisé: On
+			Monde
+				Escorte de véhicule
+					Style de Conduite: Précis(e)
+			Garde du Corps
+				Options
+					Godmode: On
